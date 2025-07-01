@@ -23,7 +23,7 @@ const ProjectManager = () => {
         formData.append('image', image);
 
         try {
-            const response = await axios.post('https://real-trust-flipr.onrender.com/api/projects', formData, {
+            const response = await axios.post('https://fullstack-assignment-w0oy.onrender.com/api/projects', formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data'
                 }

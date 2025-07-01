@@ -15,7 +15,7 @@ const ContactForm = () => {
 
     const handleSubmit = e => {
         e.preventDefault();
-        axios.post('https://real-trust-flipr.onrender.com/api/contact', formData)
+        axios.post('https://fullstack-assignment-w0oy.onrender.com/api/contact', formData)
             .then(response => {
                 alert('Form submitted!');
                 setFormData({ name: '', email: '', mobile: '', city: '' }); // Reset form data

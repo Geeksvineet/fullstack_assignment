@@ -6,7 +6,7 @@ const SubscriberList = () => {
     const [subscribers, setSubscribers] = useState([]);
 
     useEffect(() => {
-        axios.get('https://real-trust-flipr.onrender.com/api/subscriptions')
+        axios.get('https://fullstack-assignment-w0oy.onrender.com/api/subscriptions')
             .then(response => setSubscribers(response.data))
             .catch(error => console.error(error));
     }, []);

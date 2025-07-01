@@ -25,7 +25,7 @@ const ClientManager = () => {
         }
 
         try {
-            await axios.post('https://real-trust-flipr.onrender.com/api/clients', formData, {
+            await axios.post('https://fullstack-assignment-w0oy.onrender.com/api/clients', formData, {
                 headers: { 'Content-Type': 'multipart/form-data' }
             });
             setClient({ name: '', description: '', designation: '' });
