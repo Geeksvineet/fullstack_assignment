@@ -12,7 +12,7 @@ connectDB();
 
 // CORS configuration
 app.use(cors({
-  origin: ["https://real-trust-flipr-frontend.onrender.com"],
+  origin: ["https://fullstack-assignment-1-n7if.onrender.com/"],
   methods: ["POST", "GET"],
   credentials: true
 }));
