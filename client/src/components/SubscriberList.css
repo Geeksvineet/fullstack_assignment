@@ -1,0 +1,37 @@
+.subscriber-list-container {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+.subscriber-list-container h2 {
+    font-size: 1.8em;
+    color: #2f4f6f;
+    margin-bottom: 20px;
+}
+
+.subscriber-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.subscriber-item {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 8px 0;
+    font-size: 1em;
+    color: #3b82f6;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.subscriber-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

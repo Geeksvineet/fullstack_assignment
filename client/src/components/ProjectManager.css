@@ -1,0 +1,85 @@
+h2 {
+    color: #004080; /* Dark blue for headings */
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-project {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #f0f8ff; /* Light blue background for the form */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: 0 auto;
+}
+
+.form-project input[type="text"],
+.form-project input[type="file"] {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid #004080; /* Blue border */
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.form-project input[type="text"]:focus,
+.form-project input[type="file"]:focus {
+    border-color: #ff8c1a; /* Orange border on focus */
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 140, 26, 0.3);
+}
+
+.form-project button[type="submit"] {
+    background-color: #004080; /* Dark blue background */
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.form-project button[type="submit"]:hover {
+    background-color: #ff8c1a; /* Orange on hover */
+    color: #fff;
+}
+
+
+.ClientManager input[type="file"] {
+    font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+    .form-project {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .form-project input[type="text"],
+    .form-project input[type="file"] {
+        max-width: 100%;
+    }
+}
+
+.textarea-custom{
+    width: 1000px;
+}
+
+.projectList{
+    border: 2px solid;
+    width: 200px;
+    padding: 20px;
+    margin-left: 200px;
+}
+
+.Projects-head{
+    margin-left: 150px;
+}
